@@ -1,0 +1,23 @@
+<div class="cut-container">
+    <div class="cut-text">
+      <p>CUSTOM CUT</p>
+      <p data-price="{{ all_products['cut-to-size'].price }}" id="cut-to-size-price">{{ all_products['cut-to-size'].price | money }} EACH CUT</p>
+    </div>
+    <p class="cut-error">Please fill all the fields</p>
+    <p class="cut-square-error">The custom cut size is bigger than product size.</p>
+    <div class="cut-items {% if product.metafields.cut_options.width.size > 0 %}cut-selectors{% endif %}">
+    </div>
+    <div class="product-form__item product-form__item--submit product-form__cut-item--buttons">
+      <button type="button" class="btn add--cut-size-item">
+        <span>ADD CUSTOM CUT</span>
+      </button>
+      <button type="button" class="btn clear--cut-size-item">
+        <span>Clear All</span>
+      </button>
+    </div>
+    <div class="cut-order">
+      <div><span>Count:</span><span class="cut-count">0</span></div>
+      <div><span>SubTotal</span><span class="cut-subtotal">$0.00</span></div>
+      <div><span>Total</span><span class="cut-total">$0.00</span></div>
+    </div>
+</div>

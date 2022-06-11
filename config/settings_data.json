@@ -1,0 +1,779 @@
+{
+  "current": {
+    "color_primary": "#182e49",
+    "color_secondary": "#9bc6fc",
+    "color_accent": "#32537b",
+    "color_body_bg": "#fff",
+    "color_borders": "#190f0f",
+    "product_reviews_star_color": "#197bbd",
+    "color_header_background": "#2d466f",
+    "color_header_text": "#ffffff",
+    "color_header_cart_search": "#38577c",
+    "color_nav_bg": "#2f4c6f",
+    "color_nav_text": "#ffffff",
+    "color_body_text": "#110606",
+    "color_heading_text": "#0f0808",
+    "color_footer_bg": "#284471",
+    "color_footer_text": "#ffffff",
+    "color_footer_social_link": "#1e56b0",
+    "type_base_font": "montserrat_n5",
+    "type_base_size": "13px",
+    "type_header_font": "montserrat_n7",
+    "type_header_transform": true,
+    "type_accent_font": "montserrat_n5",
+    "type_navigation_size": "14px",
+    "type_navigation_transform": true,
+    "type_button_size": "14px",
+    "type_button_transform": true,
+    "favicon": "shopify:\/\/shop_images\/color_acrylic_plexiglas_acrylite_plastic_copy.jpg",
+    "cart_notes_enable": false,
+    "ajax_cart_method": "modal",
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-normal",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "superscript_decimals": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "collection_sidebar_filters": "tags",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/Bez_nazwy-3.png",
+          "logo_max_width": "300",
+          "show_announcement": true,
+          "announcement_text": "<p>SAME DAY PICKUP - CALL or TEXT <a href=\"tel:4244548767\" title=\"tel:4244548767\">(424) 454-8767<\/a> -  <a href=\"mailto:sales@herzog-group-inc.com\" title=\"mailto:sales@herzog-group-inc.com\">sales@herzog-group-inc.com<\/a><\/p>",
+          "announcement_link": "",
+          "announcement_text2": "ORDER FOR SHIPPING PLEASE CLICK HERE",
+          "announcement_link2": "https:\/\/www.falkenacrylic.com",
+          "promo_bar_font_size": 20,
+          "promo_bar_color": "#ffffff",
+          "promo_bar_background_color": "#197bbd"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "menu": {
+            "type": "menu",
+            "settings": {
+              "title": "About",
+              "menu": "contact-and-shipping-and-return",
+              "width": "33%"
+            }
+          },
+          "1602882129477": {
+            "type": "menu",
+            "settings": {
+              "title": "CUSTOMER SERVICE",
+              "menu": "privacy-and-refund",
+              "width": "33%"
+            }
+          },
+          "1602882143254": {
+            "type": "menu",
+            "settings": {
+              "title": "Terms",
+              "menu": "term-of-service",
+              "width": "16%"
+            }
+          }
+        },
+        "block_order": [
+          "menu",
+          "1602882129477",
+          "1602882143254"
+        ],
+        "settings": {
+          "social_enabled": false,
+          "show_payment_icons": true,
+          "legal_menu": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "slide-1": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "slide-2": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "slide-1",
+          "slide-2"
+        ],
+        "settings": {
+          "slider_home_auto": false,
+          "slider_home_rate": "5000"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "1602874442609": {
+            "type": "collection",
+            "settings": {
+              "collection": "clear-acrylic"
+            }
+          },
+          "1602874449586": {
+            "type": "collection",
+            "settings": {
+              "collection": "color-acrylic"
+            }
+          },
+          "20d13757-0202-455a-a364-8ee2cd2fb1c0": {
+            "type": "collection",
+            "settings": {
+              "collection": "acm"
+            }
+          },
+          "1602874457470": {
+            "type": "collection",
+            "settings": {
+              "collection": "other-plastics"
+            }
+          }
+        },
+        "block_order": [
+          "1602874442609",
+          "1602874449586",
+          "20d13757-0202-455a-a364-8ee2cd2fb1c0",
+          "1602874457470"
+        ],
+        "settings": {}
+      },
+      "collection-row-1": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "CLEAR",
+          "home_featured_row": "clear-acrylic",
+          "grid": 4,
+          "rows": 2,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6",
+          "collection_sidebar_filters": "tags",
+          "product_show_compare_at_price": false,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false,
+          "enable_sidebar": true
+        }
+      },
+      "1602545999172": {
+        "type": "advanced-content",
+        "disabled": true,
+        "blocks": {
+          "1602545999172-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1602545999172-0"
+        ],
+        "settings": {}
+      },
+      "1602546032819": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "",
+          "text": "<p>Herzog Group is a wholesale distributor of plastic sheets in Los Angeles, open to the public. We have a large and affordable selection of plastic sheets. We make custom cut for your project. Order for Same day Pickup in our warehouse in Los Angeles, CA or Miami, FL.<\/p>",
+          "text_size": "large"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1602873952098": {
+            "type": "collection",
+            "settings": {
+              "collection": "clear-acrylic"
+            }
+          },
+          "1602873976322": {
+            "type": "collection",
+            "settings": {
+              "collection": "color-acrylic"
+            }
+          },
+          "1602873983043": {
+            "type": "collection",
+            "settings": {
+              "collection": "acm"
+            }
+          }
+        },
+        "block_order": [
+          "1602873952098",
+          "1602873976322",
+          "1602873983043"
+        ],
+        "settings": {
+          "display_type": "selected",
+          "layout": "grid",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "1602874507648": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "abs-sheet-black-1-8-inch-thick-new",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "1602874592476": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "acm-sign-panel-brushed-silver-1-4-inch-thick",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "1602874667213": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "falkendesign-acrylic-bk-1-2-4896",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "1602874725169": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "falkendesign-acrylic-gn2108-1-8-4896",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "1602874821183": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "COLOR ACRYLIC",
+          "home_featured_row": "color-acrylic",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": false,
+          "product_show_compare_at_price": false
+        }
+      },
+      "1602874835600": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "OTHER PLASTICS",
+          "home_featured_row": "other-plastics",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": false,
+          "product_show_compare_at_price": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_zoom_enable": false,
+          "product_quantity_enable": true,
+          "product_quantity_message": false,
+          "product_incoming_message": false,
+          "product_vendor_enable": false,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false,
+          "related_products_enable": false,
+          "enable_payment_button": false,
+          "social_sharing_products": true,
+          "product_reviews_enable": false,
+          "add_to_cart_button_size": "small"
+        }
+      },
+      "collection-list-template": {
+        "type": "collection-list-template",
+        "settings": {
+          "num_products": "20",
+          "collection_sidebar_filters": "tags",
+          "product_show_compare_at_price": false,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false
+        }
+      },
+      "165192727564c55085": {
+        "type": "index__orders-section",
+        "blocks": {
+          "5adfa751-efd5-499d-8302-b23617c6728c": {
+            "type": "order",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/pickup1.png",
+              "link1": "shopify:\/\/collections",
+              "text": "<p>Order online and pick up at our Warehouse in Los Angeles or Miami.<\/p>",
+              "link2": "shopify:\/\/collections",
+              "font_size": 24,
+              "font_color": "#000000",
+              "back_color": "#ffffff"
+            }
+          },
+          "0a00d261-4e5d-4d51-aac2-c1b2ebc00791": {
+            "type": "order",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/shipping1.png",
+              "link1": "https:\/\/www.falkenacrylic.com\/collections\/acrylic-plexiglass-sheet",
+              "text": "<p>Get your order shipped or delivered to any address in the United States. <\/p>",
+              "link2": "https:\/\/www.falkenacrylic.com\/collections\/acrylic-plexiglass-sheet",
+              "font_size": 22,
+              "font_color": "#000000",
+              "back_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "5adfa751-efd5-499d-8302-b23617c6728c",
+          "0a00d261-4e5d-4d51-aac2-c1b2ebc00791"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/color_acrylic_plexiglas_acrylite_plastic_copy.jpg"
+        }
+      }
+    },
+    "content_for_index": [
+      "165192727564c55085",
+      "1602546032819",
+      "slideshow",
+      "collection-list",
+      "collection-row-1",
+      "1602874821183",
+      "1602874835600",
+      "1602874507648",
+      "1602874592476",
+      "1602874667213",
+      "1602874725169",
+      "1602545999172"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_font": "montserrat_n5",
+      "type_base_font": "montserrat_n5",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "montserrat_n7",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "#dedede",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_font": "lato_n7",
+      "type_base_font": "roboto_n4",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "times_new_roman_n7",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}

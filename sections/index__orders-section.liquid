@@ -1,0 +1,89 @@
+<div class="page-width">
+    <section class="orders-section" id="orders-section--{{ section.id }}">
+        <div class="order-items">
+            {% for block in section.blocks %}
+                <div class="order-item">
+                    <a href="{{ block.settings.link1 }}" class="order-icon">
+                        {{ block.settings.icon | img_url: '250x' | img_tag }}
+                    </a>
+                    <a href="{{ block.settings.link2 }}" class="order-text" style="background-color: {{ block.settings.back_color }};color: {{ block.settings.font_color }};font-size: {{ block.settings.font_size }}px">
+                        {{ block.settings.text }}
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+<style>
+    #orders-section--{{ section.id }} {
+        background-image: url('{{ section.settings.image | img_url:"2048x600" }}');
+    }
+</style>
+{% schema %}
+{
+    "name": "Orders",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        }
+    ],
+    "max_blocks": 2,
+    "blocks": [
+        {
+            "type": "order",
+            "name": "Order",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "icon",
+                    "label": "Icon"
+                },
+                {
+                    "type": "url",
+                    "id": "link1",
+                    "label": "Icon Link"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "url",
+                    "id": "link2",
+                    "label": "Text Link"
+                },
+                {
+                    "type": "range",
+                    "id": "font_size",
+                    "min": 12,
+                    "max": 48,
+                    "step": 2,
+                    "unit": "px",
+                    "label": "Font size",
+                    "default": 24
+                },
+                {
+                    "type": "color",
+                    "id": "font_color",
+                    "label": "Font Color",
+                    "default": "#000"
+                },
+                {
+                    "type": "color",
+                    "id": "back_color",
+                    "label": "Background Color",
+                    "default": "#FFF"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Orders"
+        }
+    ]
+}
+{% endschema %}
