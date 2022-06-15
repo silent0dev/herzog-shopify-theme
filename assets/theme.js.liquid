@@ -190,7 +190,7 @@ Shopify.addItemFromForm = function(form, callback, errorCallback) {
     if (is_valied) {
 
       var product_wh = $('#productSelect-product-template-option-0').val().replace(' inch', '').split('x');
-      var product_square = product_wh[0] * product_wh[1];
+      var product_square = product_wh[0] * product_wh[1] * $('#quantity').val();
       if (square <= product_square) {
         
         if (cut_count > 0) {
