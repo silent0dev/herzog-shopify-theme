@@ -264,6 +264,8 @@ Shopify.addItemFromForm = function(form, callback, errorCallback) {
           };
           jQuery.ajax(params);
         }
+        $('.cut-square-error').removeClass('active');
+        $('.cut-error').removeClass('active');
       } else {
         $('.cut-square-error').addClass('active')
       }
